@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #333; /* Color de fondo general del encabezado */
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    background: #002b36; /* Azul petróleo */
+    width: 100%; /* Abarca el 100% del ancho */
+    max-width: 800px; /* Ancho máximo de la barra */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centrar el menú horizontalmente */
+}
+
+nav .menu li {
+    margin: 0 15px;
+}
+
+nav .menu li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    transition: all 0.3s ease; /* Animación suave */
+}
+
+nav .menu li a:hover {
+    background: #ff4136; /* Rojo */
+    color: #002b36; /* Azul petróleo */
+    transform: scale(1.1); /* Aumenta el tamaño del enlace */
+    border-radius: 4px; /* Añade un borde redondeado */
+}
